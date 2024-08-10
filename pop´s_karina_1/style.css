@@ -1,0 +1,200 @@
+/* Estilo geral do site */
+
+/* Reset básico para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Configurações básicas para o corpo */
+body {
+    background: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.6;
+}
+
+/* Estilo dos links */
+a {
+    color: #e74c3c; /* Cor do link com base no tema */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza as imagens para serem responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produtos_img {
+    width: 50%;
+    display: flex;
+    margin: 0px 278px;
+    
+
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #e74c3c; /* Cor vermelha */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 img {
+    max-width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo do banner */
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Estilo das listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilo dos formulários */
+form {
+    margin: 2rem 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"],
+button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background: #c0392b;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #e74c3c; 
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 0.875rem;
+}
+
+.beneficio{
+    width: 300px;
+}
+.benefits-lista{
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .header-container  {
+        flex-direction: column ;
+    }
+    
+    .produtos_img {
+        margin: 0px 100px;
+    }
+}

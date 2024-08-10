@@ -1,0 +1,66 @@
+/* Reset básico de CSS */
+
+/* Remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define fonte padrão para o corpo do documento */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Remove a formatação padrão de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove a formatação padrão dos links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove a formatação padrão das tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove a formatação padrão das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove a formatação padrão dos formulários */
+input, textarea, select {
+    font: inherit;
+}
+
+/* Remove a formatação padrão dos campos de formulário */
+input, textarea, select {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Remove a formatação padrão dos botões */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Remove espaçamento padrão dos elementos de bloco */
+header, main, footer, section, article, aside, nav {
+    display: block;
+}
+
+/* Estilo padrão para tabelas */
+th, td {
+    text-align: left;
+    padding: 8px;
+}
